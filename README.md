@@ -68,9 +68,15 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 
   Return the JSON representation of your dictionary.
 
+  ![image](https://github.com/amccollough1/sqlalchemy-challenge/assets/133404805/063ac9f5-e259-4e25-af7e-29bad60cf668)
+
+
 3./api/v1.0/stations
 
   Return a JSON list of stations from the dataset.
+
+  ![image](https://github.com/amccollough1/sqlalchemy-challenge/assets/133404805/afb7360c-6af5-46d9-bfe6-6384b7cce264)
+
   
 4./api/v1.0/tobs
 
@@ -78,10 +84,23 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 
   Return a JSON list of temperature observations for the previous year.
 
+![image](https://github.com/amccollough1/sqlalchemy-challenge/assets/133404805/25d8d2bc-0ee1-4228-b249-4b3fc99a474b)
+
+
 5./api/v1.0/<start> and /api/v1.0/<start>/<end>
 
   Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 
   For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
 
+  date used: 2010-01-01
+
+  ![image](https://github.com/amccollough1/sqlalchemy-challenge/assets/133404805/fc56c4f4-6408-40e4-8380-c22f1a5666a0)
+
+
   For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
+
+  dates used: 2010-01-01/2011-01-01
+  
+  ![image](https://github.com/amccollough1/sqlalchemy-challenge/assets/133404805/b03b2377-c99a-4dfb-81c5-db19d041b3fa)
+
