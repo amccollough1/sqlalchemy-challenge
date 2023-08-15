@@ -61,6 +61,7 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
   
 ![image](https://github.com/amccollough1/sqlalchemy-challenge/assets/133404805/03164d98-9a7f-4e15-ae16-9b1b334575c7)
 
+
 2./api/v1.0/precipitation
 
   Convert the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
