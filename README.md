@@ -58,6 +58,8 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
   Start at the homepage.
 
   List all the available routes.
+  
+![image](https://github.com/amccollough1/sqlalchemy-challenge/assets/133404805/03164d98-9a7f-4e15-ae16-9b1b334575c7)
 
 2./api/v1.0/precipitation
 
@@ -68,6 +70,7 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 3./api/v1.0/stations
 
   Return a JSON list of stations from the dataset.
+  
 4./api/v1.0/tobs
 
   Query the dates and temperature observations of the most-active station for the previous year of data.
